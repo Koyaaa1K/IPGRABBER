@@ -1,0 +1,115 @@
+body {
+    background-image: url("../Images/Flag_of_Kenya.jpg");
+    background-size: cover;
+    
+    
+}
+
+.special-button {
+    margin-bottom: 20px;
+    background-color: rgb(255, 255, 255);
+    cursor: pointer;
+    border: 1px;
+    border-style: solid;
+    border-radius: 8px;
+    padding-top: 16px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 16px;
+    box-sizing: border-box;
+    font-size: 16px;
+    font-weight: bold;
+    transition: box-shadow 0.15s;
+    font-family: 'Noto Sans';
+}
+
+  .special-button:hover {
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+    
+  }
+
+ 
+
+
+  .stretch-photo {
+    position: absolute; /* Use fixed to cover the viewport */
+    top: 70%; /* Initial vertical position */
+    left: 50%; /* Center horizontally */
+    width: 18%; /* Initial width */
+    height: auto; /* Maintain aspect ratio */
+    transform: translate(-50%, -50%); /* Center the image */
+    transition: width 1.3s, height 1.3s, top 1.3s, left 1.3s; /* Smooth transition */
+    z-index: 1; /* Ensure it is above other content */
+}
+
+.stretch-photo:hover {
+    width: 100vw; /* Cover the entire width of the viewport */
+    height: 100vh; /* Cover the entire height of the viewport */
+    top: 0; /* Align to the top */
+    left: 0; /* Align to the left */
+    transform: none; /* Remove centering transform */
+}
+
+
+.for-the-image {
+    position: relative;
+    top: -80px;
+    font-size: 60px;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Overpass', sans-serif;
+    font-weight: 900;
+    color: #b0c4de;
+    
+}
+
+.mywbery-1 {
+    position: absolute;
+    height: 15%;
+    width: 15%;
+    top: 10px;
+    right: 10px;
+
+    
+}
+
+.SBS-title {
+    position: relative;
+    top: -19vh;
+    font-family: 'Noto Sans';
+    font-size: 3vw;
+    font-weight: bold;
+    color: #b0c4de;
+}
+
+.list-of-skills {
+    position: relative;
+    top: -21vh;
+    margin-top: 0px;
+    font-family: 'Overpass', sans-serif;
+    margin-bottom: 0px;
+    list-style-type: none;
+    padding: 2px;
+    display: inline-block;
+    color: #b0c4de;
+    font-size: 2.1vw;
+}
+
+
+.mywbery-info {
+    color: #b0c4de;
+    font-family: 'Overpass', sans-serif;
+    font-size: 2.8vh;
+}
+
+.special-text {
+    color: #b0c4de;
+    visibility: hidden;
+
+    font-size: 40px;
+    font-family: 'Overpass', sans-serif;
+}
+
+.mywbery-address {
+    font-size: 2vh;
+}
